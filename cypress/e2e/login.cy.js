@@ -12,7 +12,7 @@ context('Funcionalidade Login', () => {
         cy.screenshot()
     });
 
-    it('Deve fazer login com sucesso', () => {
+    it('Deve realizar login com sucesso', () => {
         cy.get('#username').type('aluno_ebac@teste.com')
         cy.get('#password').type('teste@teste.com')
         cy.get('.woocommerce-form > .button').click()
